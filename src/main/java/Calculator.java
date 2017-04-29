@@ -4,7 +4,7 @@
 public class Calculator {
 
     public static void main(String args[]) throws ClassNotFoundException {
-        System.out.println("Welcome to my calculator version 3!");
+        System.out.println("Welcome to my calculator version 3.1!");
 
     }
 
@@ -12,9 +12,8 @@ public class Calculator {
             return a + b;
         }
 
-    public double addNeg ( double a, double b){
-        return a - b;
-    }
+
+    public double sqrt(double a) {return  a = Math.sqrt(a); }
 
     public double subtract(double a, double b) {
         return a - b;

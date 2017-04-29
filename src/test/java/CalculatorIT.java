@@ -42,6 +42,20 @@ public class CalculatorIT {
        // fail("The test case is a prototype.");
     }
 
+    @Test
+    public void testSqrt() {
+        System.out.println("sqrt");
+        double a = 9.0;
+        Calculator instance = new Calculator();
+        double expResult = 3.0;
+        double result = instance.sqrt(a);
+        assertEquals(expResult, result, 0.0);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
+
+
+
     /**
      * Test of subtract method, of class Calculator.
      */
