@@ -42,7 +42,7 @@ public class CalculatorIT {
        // fail("The test case is a prototype.");
     }
 
-    @Test
+  /*  @Test
     public void testSqrt() {
         System.out.println("sqrt");
         double a = 9.0;
@@ -54,7 +54,7 @@ public class CalculatorIT {
         //fail("The test case is a prototype.");
     }
 
-
+*/
 
     /**
      * Test of subtract method, of class Calculator.

@@ -13,7 +13,7 @@ public class Calculator {
         }
 
 
-    public double sqrt(double a) {return  a = Math.sqrt(a); }
+  //  public double sqrt(double a) {return  a = Math.sqrt(a); }
 
     public double subtract(double a, double b) {
         return a - b;
