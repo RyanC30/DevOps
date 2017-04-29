@@ -13,7 +13,7 @@ public class Calculator {
         }
 
     public double addNeg ( double a, double b){
-        return a + b;
+        return a - b;
     }
 
     public double subtract(double a, double b) {
